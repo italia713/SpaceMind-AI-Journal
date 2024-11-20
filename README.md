@@ -14,22 +14,12 @@ API Integration: Connection with Gemini AI APIs for real-time emotion analysis a
 
 Setup and Installation
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/your-username/astronaut-virtual-companion.git
 cd astronaut-virtual-companion
 Install Dependencies: Ensure you have Python installed. Then, install the required libraries:
-
-bash
-Copy code
 pip install -r requirements.txt
 Configure Gemini AI API:
-
 Sign up for access to the Gemini AI API.
 Obtain your API key and add it to the project configuration file (e.g., config.py).
 Run the Project:
-
-bash
-Copy code
 python main.py
