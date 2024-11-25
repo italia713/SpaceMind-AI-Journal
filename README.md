@@ -8,18 +8,30 @@ Health Monitoring: The companion can track health status and offer reminders, al
 Seamless Integration: The AVC connects with a PyQt5 interface, offering a user-friendly experience with Gemini AI API integration for conversation and emotion processing.
 
 Technologies Used
-Gemini AI: Provides the backbone for the AVC's natural language processing and sentiment analysis.
-Python & PyQt5: A flexible framework that powers the GUI, enabling smooth communication between the astronaut and the virtual companion.
-API Integration: Connection with Gemini AI APIs for real-time emotion analysis and dialogue adaptation.
+* Gemini AI: Provides the backbone for the AVC's natural language processing and sentiment analysis.
+* Python & PyQt5: A flexible framework that powers the GUI, enabling smooth communication between the astronaut and the virtual companion.
+* API Integration: Connection with Gemini AI APIs for real-time emotion analysis and dialogue adaptation.
 
 Setup and Installation
-Clone the Repository:
-git clone https://github.com/your-username/astronaut-virtual-companion.git
-cd astronaut-virtual-companion
-Install Dependencies: Ensure you have Python installed. Then, install the required libraries:
-pip install -r requirements.txt
-Configure Gemini AI API:
-Sign up for access to the Gemini AI API.
-Obtain your API key and add it to the project configuration file (e.g., config.py).
-Run the Project:
-python main.py
+
+* Clone the Repository:
+git clone https://github.com/your-username/avc-project.git
+cd avc-project
+
+*  Create and Activate a Virtual Environment
+  Python -m venv env
+source env/bin/activate  # For Linux/MacOS
+env\Scripts\activate     # For Windows
+
+* Install Dependencies
+  pip install -r requirements.txt
+
+*  Set Up Gemini AI API Access
+  GEMINI_API_KEY=your_api_key_here
+
+Running the application:
+* source env/bin/activate  # Linux/MacOS
+* env\Scripts\activate     # Windows
+
+Finally, Run the application:
+* python main.py
